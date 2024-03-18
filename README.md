@@ -1,4 +1,4 @@
-# dbt-project-template
+# SpiceCraft.Template.Project
 
 This repository is a [Cruft template](https://cruft.github.io/cruft/) that can be used to generated dbt projects.
 
