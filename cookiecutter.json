@@ -1,5 +1,7 @@
 {
     "project_name": "Project Name",
+    "adf_name": "Azure Data Factory Name",
     "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
-    "dbt_project_name": "dbt_{{ cookiecutter.project_slug }}"
+    "dbt_project_name": "dbt_{{ cookiecutter.project_slug }}",
+    "adf_project_name": "{{ cookiecutter.adf_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}"
 }
